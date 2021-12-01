@@ -1,0 +1,13 @@
+.media  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 0px;
+    position: absolute;
+    width: fit-content;
+    height: 404px;
+    left: 24px;
+    top: 247px;  
+}

@@ -1,0 +1,45 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.modal {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 1190px;
+  height: 771px;
+  top: 140px;
+  z-index: 30;
+
+  /* light-mode/white-background */
+  background: #FFFFFF;
+
+  /* light-mode/general-border */
+  border: 1px solid rgba(204, 210, 226, 0.75);
+  box-sizing: border-box;
+  border-radius: 12px;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

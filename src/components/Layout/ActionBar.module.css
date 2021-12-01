@@ -1,0 +1,117 @@
+.container {
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 100px;
+  margin-bottom: 32px;
+  background: #FFFFFF;
+  opacity: 0.5;
+  /* light-mode/general-border */
+
+  border: 1px solid rgba(204, 210, 226, 0.75);
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  color: rgba(53, 64, 82, 0.75);
+}
+.deleteIcon {
+  color:"red";
+  width: "16px";
+  height: "16px";
+}
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.selectCheck {
+  width: 185px;
+  border-right: 1px solid rgba(204, 210, 226, 0.75);
+  border-bottom: 1px solid rgba(204, 210, 226, 0.75);
+  margin-top: 5px;
+  padding: 24px;
+}
+
+.checkbox {
+  margin-right: 8px;
+  padding-top: 24px;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(0deg, #F1F5FA 0%, #FDFEFF 100%);
+  border: 1px solid rgba(204, 210, 226, 0.75);
+  border-radius: 4px;
+}
+
+.searchBarContainer {
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(204, 210, 226, 0.75);
+}
+
+.searchbar {
+  margin-left: auto;
+  background: #ffffff;
+  /* light-mode/general-border */
+
+  border: 1px solid rgba(204, 210, 226, 0.75);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.bar {
+  width: 245px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  border: none;
+}
+
+.bar:focus {
+  outline: none;
+}
+
+.sorter {
+  display: flex;
+  flex-direction: row;
+  /* border-right: 1px solid rgba(204, 210, 226, 0.75); */
+  /* border-right: 1px solid rgba(204, 210, 226, 0.75);
+  border-bottom: 1px solid rgba(204, 210, 226, 0.75); */
+}
+
+.sortBy {
+  padding: 22px;
+  width: 110px;
+  border-right: 1px solid rgba(204, 210, 226, 0.75);
+  /* border-bottom: 1px solid rgba(204, 210, 226, 0.75); */
+}
+
+.sortControl {
+  padding: 22px;
+}
+
+.sortButton {
+  width: 60px;
+  height: 30px;
+  background: rgba(0, 153, 255, 0.08);
+  border: 0.702703px solid #0099ff;
+  box-sizing: border-box;
+  border-radius: 2.81081px;
+  margin-left: 24px;
+
+  cursor: pointer;
+}
+
+.not_active {
+  background: #ffffff;
+  border: 1px solid rgba(204, 210, 226, 0.75);
+}
+
+.active {
+  background: rgba(0, 153, 255, 0.08);
+  border: 0.702703px solid #0099ff;
+}
